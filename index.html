@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rehnuma Padhiyar | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="cursor"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar glass">
+  <h2 class="logo">Rehnuma</h2>
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="home">
+  <div class="home-content glass">
+    <h1><span id="typing"></span></h1>
+    <p>Frontend Developer passionate about creating clean, responsive and interactive web experiences.</p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container center">
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill glass">💻 HTML</div>
+      <div class="skill glass">🎨 CSS</div>
+      <div class="skill glass">⚡ JavaScript</div>
+      <div class="skill glass">🅱️ Bootstrap</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container center">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card glass">
+        <img src="project1.jpeg">
+        <h3>Portfolio Website</h3>
+        <p class="project-desc">
+          A fully responsive personal portfolio website with modern UI, smooth animations, 
+          and clean layout showcasing my skills and projects effectively.
+        </p>
+        <a href="#"><button class="btn">View Project</button></a>
+      </div>
+
+      <div class="project-card glass">
+        <img src="project2.jpeg">
+        <h3>Web Application</h3>
+        <p class="project-desc">
+          A dynamic web application built using JavaScript featuring interactive UI elements, 
+          user-friendly design, and responsive layout for all devices.
+        </p>
+        <a href="#"><button class="btn">View Project</button></a>
+      </div>
+
+      <div class="project-card glass">
+        <img src="project3.jpeg">
+        <h3>UI Design</h3>
+        <p class="project-desc">
+          Creative and modern UI design focusing on user experience, visual hierarchy, 
+          and clean structured layout for better usability.
+        </p>
+        <a href="#"><button class="btn">View Project</button></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container center">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-box glass">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button class="btn" id="sendBtn">Send Message</button>
+    </div>
+  </div>
+</section>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+  <div class="popup-content glass">
+    <p>✅ Message Sent Successfully!</p>
+    <button onclick="closePopup()" class="btn">OK</button>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Rehnuma Padhiyar</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
